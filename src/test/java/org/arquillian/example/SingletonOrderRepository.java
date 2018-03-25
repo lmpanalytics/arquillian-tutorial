@@ -11,7 +11,7 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.ejb.Lock;
 import javax.ejb.LockType;
-import javax.inject.Singleton;
+import javax.ejb.Singleton;
 
 /**
  *

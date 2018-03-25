@@ -7,12 +7,10 @@ import java.util.List;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
-import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.SessionScoped;
 
-//@SessionScoped
-@RequestScoped
-//public class Basket implements Serializable {
-public class Basket {
+@SessionScoped
+public class Basket implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private List<String> items;

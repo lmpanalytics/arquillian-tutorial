@@ -34,7 +34,7 @@ public class BasketTest {
     @Inject
     Basket basket;
 
-    @EJB(mappedName = "java:global/test/SingletonOrderRepository!org.arquillian.example.OrderRepository")
+    @EJB
     OrderRepository repo;
 
     @Test

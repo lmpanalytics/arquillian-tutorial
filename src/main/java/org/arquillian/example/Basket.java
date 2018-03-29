@@ -15,7 +15,7 @@ public class Basket implements Serializable {
     private static final long serialVersionUID = 1L;
     private List<String> items;
 
-    @EJB(mappedName = "java:global/test/SingletonOrderRepository!org.arquillian.example.OrderRepository")
+    @EJB
     private OrderRepository repo;
 
     public void addItem(String item) {
